@@ -56,7 +56,7 @@ img{
   padding-bottom: 60px;
 }
 
-.washind-mode-list {
+.washing-mode__list {
   display: flex;
   list-style: none;
   padding: 0;
@@ -64,11 +64,11 @@ img{
   margin-bottom: 10px;
 }
 
-.washind-mode-item:not(:last-child) {
+.washing-mode__item:not(:last-child) {
   margin-right: 40px;
 }
 
-.washind-mode-link {
+.washing-mode__link {
   font-size: 50px;
   font-weight: bold;
   color: #fff;
@@ -77,15 +77,15 @@ img{
   opacity: 0.6;
 }
 
-.washind-mode-link:hover{
+.washing-mode__link:hover{
   opacity: 0.9;
 }
 
-.washind-mode-item-active .washind-mode-link{
+.washing-mode__item-active .washing-mode__link{
   opacity: 1;
 }
 
-.washing-mode-notice{
+.washing-mode__notice{
   max-width: 420px;
   margin-top: 0;
   font-size: 14px;
@@ -96,7 +96,7 @@ img{
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
-.washind-mode-controller{
+.washing-mode__controller{
   position: absolute;
   top: 0;
   width: 60px;
@@ -108,26 +108,26 @@ img{
   cursor: pointer;
 }
 
-.washind-mode-controller-prev{
+.washing-mode__controller-prev{
   left: 0;
   transform: translateX(-100%);
 }
 
-.washind-mode-controller-next{
+.washing-mode__controller-next{
   right: 0;
   transform: translateX(100%);
 }
 
-.washind-mode-controller:hover{
+.washing-mode__controller:hover{
   opacity: 1;
 }
 
-.washing-mode-status {
+.washing-mode__status {
   display: flex;
   margin: 0;
 }
 
-.washing-mode-status-item {
+.washing-mode__status-item {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -137,23 +137,23 @@ img{
   padding: 30px;
 }
 
-.washing-mode-status-item-timer{
+.washing-mode__status-item-timer{
   background-color: #555;
 }
-.washing-mode-status-item-temprature{
+.washing-mode__status-item-temprature{
   background-color: #333;
 }
-.washing-mode-status-item-load{
+.washing-mode__status-item-load{
   background-color: #111;
 }
 
-.washing-mode-status-heading {
+.washing-mode__status-heading {
   color: #ff907c;
   font-size: 24px;
   font-weight: bold;
 }
 
-.washing-mode-status-value {
+.washing-mode__status-value {
   margin-left: 0;
 }
 
